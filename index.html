@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge","chrome=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/style.scss">
+    <link rel="stylesheet" href="stylesheets/animate.scss">
+    <link rel="icon" href="./assets/images/KC.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+    <title>Kizar Cassiere</title>
+</head>
+
+<body>
+    <div class="grid-2">
+        <div class="section-1">
+            <!-- <img class='profile-image' src=" " alt="Mountain"> -->
+            <h2>Hi iAm</h2>
+            <br><br>
+            <!-- <p>Software Engineer</p> -->
+            <a href="https://www.linkedin.com/in/kcassiere97" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/kcassiere97" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/kcassiere97/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/aperturek" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:kcassiere97@csu.fullerton.edu?Subject=Greetings" target="_top"><i class="fab fa fa-envelope animated zoomIn" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="section-2">
+                <div id="wrapper-terminal">
+                <div id="topbar">
+                    <div class="bar-buttons" id="close"></div>
+                    <div class="bar-buttons" id="minimize"></div>
+                    <div class="bar-buttons" id="zoom"></div>
+                    <div id="bar-title"><b>kizar</b></div>
+                </div>
+                <div id="terminal">
+                    <span class="arrows">>>> </span>
+                    <div id="typed-name" class="terminal_text">
+                        <p>k.name</p>
+                    </div>
+                    <span id="typedout-name"></span>
+                    <span class="output" id="line1"><br>
+                        '<span class="string">Kizar Cassiere</span>'
+                        <br>
+                        <br>
+                            </span>
+                    <span class="arrows" id="line1">>>> </span>
+                    <div id="typed-edu" class="terminal_text">
+                        <p>k.education</p>
+                    </div>
+                    <span id="typedout-edu"></span>
+                    <span class="output" id="line2"><br>
+                        {<br>
+                            <span></span>'<span class="string">university</span>'&nbsp;: '<span class="string">California State University, Fullerton</span>',
+                            <br>
+                            <span></span>'<span class="string">major</span>'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: '<span class="string">B.S. Computer Science</span>',
+                            <br>
+                            <span></span>'<span class="string">graduation</span>'&nbsp;: '<span class="string">May 2021</span>'
+                            <br>
+                        }
+                        <br>
+                        <br>
+                            </span>
+
+                    <span class="arrows" id="line2">>>> </span>
+                    <div id="typed-exp" class="terminal_text">
+                        <p>k.experience</p>
+                    </div>
+                    <span id="typedout-exp"></span>
+                    <span class="output" id="line3"><br>
+                        {<br>
+                            <!-- <span></span>'<span class="string">Oct XXXX - Present</span>'&nbsp;&nbsp;: '<span class="string">Software Engineer @ <a href=https://www.apple.com/>Apple</a></span>',
+                            <br> -->
+                            <br>
+                            <span></span>'<span class="string">2019 - Present</span>' : '<span class="string"><a href="https://www.linkedin.com/in/kcassiere97" target="_blank"><i class="fab fa-linkedin"></i></a></span>'
+                            <br>
+                            <br>
+                        }
+                        <br>
+                        <br>
+                    </span>
+
+                    <span class="arrows" id="line3">>>> </span>
+                    <div id="typed-int" class="terminal_text">
+                        <p>k.interest</p>
+                    </div>
+                    <span id="typedout-int"></span>
+                    <span class="output" id="line4"><br>
+                        ['<span class="string">full stack</span>','<span class="string">data science</span>', '<span class="string">photography</span>','<span class="string">sushi & tacos</span>', '<span class="string">nba</span>','<span class="string">travel</i></span>']
+                        <br>
+                        <br>
+                    </span>
+
+                   <span class="arrows" id="line4">>>> </span>
+                    <div id="typed-proj" class="terminal_text">
+                        <p>k.portfolio</p>
+                    </div>
+                    <span id="typedout-proj"></span>
+                    <span class="output" id="line5"><br>
+                        ['<span class="string"><a href="projects/projects.html">work</a></span>','<span class="string"><a href="photography/gallery.html">gallery</a></span>']
+                        <br>
+                        <br>
+                    </span> 
+                    <span class="arrows" id="line5">>>> </span>
+                    <div id="typed-contact" class="terminal_text">
+                            <p>k.contact_info</p>
+                    </div>
+                    <span id="typedout-contact"></span>
+                    <span class="output" id="line6"><br>
+                        '<span class="string"><a href="mailto:kcassiere97@csu.fullerton.edu">kcassiere97@csu.fullerton.edu</a></span>'
+                        <br>
+                        <br>
+                    </span>
+                </div>
+    </div>
+</body>
+    <script>
+        var typed_name = new Typed('#typedout-name', {
+            startDelay: 200,
+            stringsElement: '#typed-name',
+            typeSpeed: 50,
+            cursorChar: '',
+        });
+
+        var typed_edu = new Typed('#typedout-edu', {
+            startDelay: 1200,
+            stringsElement: "#typed-edu",
+            typeSpeed: 50,
+            cursorChar: '',
+        })
+
+        var typed_edu = new Typed('#typedout-exp', {
+            startDelay: 2800,
+            stringsElement: "#typed-exp",
+            typeSpeed: 50,
+            cursorChar: '',
+        })
+
+        var typed_edu = new Typed('#typedout-int', {
+            startDelay: 3800,
+            stringsElement: "#typed-int",
+            typeSpeed: 50,
+            cursorChar: '',
+        })
+
+        var typed_proj = new Typed('#typedout-proj', {
+            startDelay: 4500,
+            stringsElement: "#typed-proj",
+            typeSpeed: 50,
+            cursorChar: '',
+        })
+        
+        var typed_contact = new Typed('#typedout-contact', {
+            startDelay: 5300,
+            stringsElement: "#typed-contact",
+            typeSpeed: 50,
+            cursorChar: '',
+        })
+
+    </script>
+
+</html>
